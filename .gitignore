@@ -1,0 +1,6 @@
+# Ignored files
+
+# Jekyll generated files
+_site
+node_modules
+Gemfile.lock

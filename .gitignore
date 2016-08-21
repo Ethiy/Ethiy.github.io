@@ -1,5 +1,9 @@
 # Ignored files
 
+# VS Code
+
+.vscode
+
 # Jekyll generated files
 _site
 node_modules

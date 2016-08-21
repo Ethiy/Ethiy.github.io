@@ -6,9 +6,10 @@ copyright_name: Oussama ennafii
 description: "Personnal website."
 baseurl: ""
 url: "http://ethiy.github.io"
-twitter_username: SBootstrap
+twitter_username:
 github_username:  Ethiy
-facebook_username:  StartBootstrap
+facebook_username: 
+linkedin_username: oussama-ennafii
 email_username:  oussama.ennafii@outlook.com
 
 # Google Analytics

@@ -12,9 +12,6 @@ facebook_username:
 linkedin_username: oussama-ennafii
 email_username:  oussama.ennafii@outlook.com
 
-# Google Analytics
-# google_tracking_id:
-
 # Build settings
 markdown: kramdown
 highlighter: rouge

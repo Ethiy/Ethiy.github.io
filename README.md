@@ -1,6 +1,6 @@
 # ethiy.github.io
 
-[Finally, my own personal page.](http://ethiy.github.io)
+Finally, my own [personal page.](http://ethiy.github.io)
 
 This site uses a special release of the [Clean Blog theme](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll) using [Jekyll](https://jekyllrb.com) and [bootstrap framework](http://getbootstrap.com).
 

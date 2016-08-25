@@ -7,5 +7,5 @@ author:     "Oussama Ennafii"
 header-img: "img/post-bg-01.jpg"
 ---
 
-The Resumé page was greatly inspired by the [Orbit theme](https://github.com/xriley/Orbit-Theme) provided under the [Creative Commons License](https://creativecommons.org/licenses/by/3.0).
+[The Resumé page](http://ethiy.github.io/about) page was greatly inspired by the [Orbit theme](https://github.com/xriley/Orbit-Theme) provided under the [Creative Commons License](https://creativecommons.org/licenses/by/3.0).
 Now I can write my own C.V. webpage.

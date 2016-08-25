@@ -1,8 +1,8 @@
 # ethiy.github.io
 
-Personnal page.
+[Finally, my own personal page.](http://ethiy.github.io)
 
-This site uses a special release of the [Clean Blog theme](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll) using [Jekyll](https://jekyllrb.com) and [bootstrap](http://getbootstrap.com).
+This site uses a special release of the [Clean Blog theme](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll) using [Jekyll](https://jekyllrb.com) and [bootstrap framework](http://getbootstrap.com).
 
 The theme is provided by [Start Bootstrap](https://startbootstrap.com) Under the MIT License.
 

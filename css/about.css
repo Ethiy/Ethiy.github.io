@@ -84,3 +84,37 @@
   height: 12px;
   background: #97AAC3;
 }
+
+.sidebar-wrapper {
+  float: left;
+  display: block; 
+  width: 230px; 
+  margin: 0; 
+  padding: 0 15px; 
+}
+
+.side-wrapper a:hover {
+  text-decoration: none;
+}
+
+.side-wrapper .contents .fa {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  display: inline-block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #404040;
+  color: white;
+  text-align: center;
+  padding-top: 6px;
+  font-size: 18px;
+  position: relative;
+  top: -2px;
+  }

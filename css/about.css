@@ -1,3 +1,8 @@
+
+.wrapper a:hover {
+  text-decoration: none;
+}
+
 .main-wrapper {
   padding: 60px;
 }

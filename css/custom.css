@@ -89,3 +89,7 @@
   height: 12px;
   background: #97AAC3;
 }
+
+#map-canvas {
+  height: 100%;
+}

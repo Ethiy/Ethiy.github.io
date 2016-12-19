@@ -15,6 +15,5 @@ function initMap() {
         map: map,
         title: 'Office K316 - IGN France'
     });
+    google.maps.event.trigger(map, "resize");
 };
-
-google.maps.event.trigger(map, "resize");

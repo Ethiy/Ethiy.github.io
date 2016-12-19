@@ -11,7 +11,7 @@ function initMap() {
         options
         );
     var marker = new google.maps.Marker({
-        position: coordinates;
+        position: coordinates,
         map: map,
         title: 'Office K316 - IGN France'
     });

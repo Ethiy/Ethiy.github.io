@@ -4,7 +4,7 @@
 
 .vscode
 
-# Jekyll generated files
+# Jekyll generated site
 _site
 node_modules
 Gemfile.lock

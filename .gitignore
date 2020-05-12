@@ -1,6 +1,5 @@
-# Ignored files
-
-# Jekyll generated site
 _site
-node_modules
-Gemfile.lock
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor

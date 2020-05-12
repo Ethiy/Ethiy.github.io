@@ -7,30 +7,35 @@
 title: Oussama Ennafii
 email: oussama.ennafii@outlook.com
 copyright_name: Oussama Ennafii
-description: "Personnal website."
+description: "Personnal website for Oussama Ennafii."
 baseurl: ""
-url: "http://ethiy.github.io"
+url: "https://oussama-ennafii.com"
 github_username:  ethiy
 linkedin_username: oussama-ennafii
 email_username:  oussama.ennafii@outlook.com
 
 # Build settings
-markdown: kramdown
+kramdown:
+    input: GFM
 highlighter: rouge
 permalink: pretty
 
-theme: minima
+include:
+    - _pages
 plugins:
-  - jekyll-feed
+    - jekyll-feed
+
+sass:
+    sass_dir: _sass
 
 exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+    - .sass-cache/
+    - .jekyll-cache/
+    - gemfiles/
+    - Gemfile
+    - Gemfile.lock
+    - node_modules/
+    - vendor/bundle/
+    - vendor/cache/
+    - vendor/gems/
+    - vendor/ruby/

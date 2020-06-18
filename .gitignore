@@ -1,6 +1,7 @@
 # Ignored files
 
-# Jekyll generated site
+# Jekyll outputs
 _site
 node_modules
 Gemfile.lock
+.jekyll-metadata

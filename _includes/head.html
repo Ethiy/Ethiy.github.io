@@ -1,32 +1,21 @@
-<head>
+{% include base_path %}
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ site.description }}">
+<meta charset="utf-8">
 
-    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+{% include seo.html %}
 
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
-    <!-- Icon -->
-    <link rel="shortcut icon" href="/favicon.ico" />
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ "/css/clean-blog.min.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ "/css/custom.min.css" | prepend: site.baseurl }}">
+<!-- For all browsers -->
+<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
 
-    <!-- Pygments Github CSS -->
-    <link rel="stylesheet" href="{{ "/css/syntax.min.css" | prepend: site.baseurl }}">
-
-    <!-- Custom Fonts -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-    {% feed_meta %}
-
-</head>
+<meta http-equiv="cleartype" content="on">

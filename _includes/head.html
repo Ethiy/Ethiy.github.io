@@ -6,12 +6,13 @@
     <meta content={{site.description}} name="description">
     <meta content={{site.keywords}} name="keywords">
     <meta content="index, follow" name="robots">
-    <link href="{{ img/icon.jpg | prepend: site.baseurl }}" rel="shortcut icon">
     <!-- Bootstrap core CSS -->
-    <link href="{{ css/bootstrap.css | prepend: site.baseurl }}" rel="stylesheet">
+    <link href={{ "/css/bootstrap.css" | relative_url }} rel="stylesheet">
     <!-- Font Awesome core CSS -->
-    <link href="{{ css/font-awesome.css | prepend: site.baseurl }}" rel="stylesheet">
+    <link href={{ "/css/font-awesome.css" | relative_url }} rel="stylesheet">
+    <!-- Academic icons core CSS -->
+    <link rel="stylesheet" href={{ "vendor/academicons/css/academicons.min.css"/ | relative_url }}>
     <!-- Custom styles for this template -->
-    <link href="{{ css/blue.css | prepend: site.baseurl }}" rel="stylesheet">
+    <link href={{ "/css/blue.css" | relative_url }} rel="stylesheet">
 </head>
   

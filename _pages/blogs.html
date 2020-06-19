@@ -1,0 +1,14 @@
+---
+
+layout: page
+title: About
+permalink: /blogs
+---
+
+<h4>blog</h4>
+{% for post in site.posts %}
+		<time>{{ post.date | date: "%b %-d, %Y" }}</time>
+		<h3><a href="{{ post.url | site.relativeurl }}">{{ post.title }}</a></h3>
+{% endfor %}
+
+<p>subscribe <a href={{ "/feed.xml" | site.relativeurl }}>via RSS</a></p>

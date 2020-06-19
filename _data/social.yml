@@ -1,7 +1,26 @@
-user_name:
+location:
     - site: github
-      usr: ethiy
-      icon: fa
-      url: ""
+      icon: fa fa-github
+      url: https://github.com/ethiy
 
     - site: linkedin 
+      icon: fa fa-linkedin
+      url: https://linkedin.com/in/oussama-ennafii
+
+    - site: google-scholar
+      icon: ai ai-google-scholar
+      url: https://scholar.google.fr/citations?user=plzeEc8AAAAJ
+
+    - site: researchgate
+      icon: ai ai-researchgate
+      url: https://www.researchgate.net/profile/Oussama_Ennafii
+
+    - site: hal-id
+      img: 
+          src: img/icons/header/hal.svg
+          width: 45px
+      url: https://hal.archives-ouvertes.fr/search/index/?q=%2A&authIdHal_s=oussama-ennafii
+
+    - site: orcid
+      icon: ai ai-orcid
+      url: https://orcid.org/0000-0001-6311-5508

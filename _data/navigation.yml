@@ -1,4 +1,8 @@
-nav:   
+tabs:   
+    - title: "Home"
+      icon: "glyphicon glyphicon-user"
+      url: /
+
     - title: "Resume"
       icon: "glyphicon glyphicon-user"
       url: /resume/

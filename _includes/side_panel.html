@@ -1,34 +1,25 @@
 <div class="col-md-3 col-md-offset-2 col-sm-4 aside">
-    <img src="{{ img/img.jpg | prepend: site.baseurl }}">
-    <h1>John Doe</h1>
-    <h2>Web developer</h2>
+    <img src={{ "img/profile/me.jpg" | site.relativeurl }}>
+    <h1>{{ site.data.author.name }}</h1>
+    <h2>{{ site.data.author.description }}</h2>
     <h3>
-        <i aria-hidden="true" class="fa fa-map-marker"></i> New York, NY
+        <i aria-hidden="true" class="fa fa-map-marker"></i> {{ site.data.author.location }}
     </h3>
     <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        {{ site.data.author.summary}}
     </p>
 
-    <a class="btn" href="#">Download CV</a>
+    <a class="btn" href={{"files/cv.pdf" | site.relativeurl }}>Download CV</a>
 
     <div class="social-network">
-        <a href="">
-            <i aria-hidden="true" class="fa fa-facebook"></i>
-        </a>
-        <a href="">
-            <i aria-hidden="true" class="fa fa-twitter"></i>
-        </a>
-        <a href="">
-            <i aria-hidden="true" class="fa fa-google-plus"></i>
-        </a>
-        <a href="">
-            <i aria-hidden="true" class="fa fa-pinterest-p"></i>
-        </a>
-        <a href="">
-            <i aria-hidden="true" class="fa fa-linkedin"></i>
-        </a>
-        <a href="">
-            <i aria-hidden="true" class="fa fa-dribbble"></i>
-        </a>
+        {% for item in site.data.social.location %}
+            <a href={{ item.url }}>
+                {% if item.icon %}
+                    <i aria-hidden="true" class= "{{ item.icon }}"></i>
+                {% else %}
+                    <i aria-hidden="true" class="ai"><img src="{{ item.img.src }}" width= {{ item.img.width }}/></i>
+                {% endif %}
+            </a>
+        {% endfor %}
     </div>
 </div>

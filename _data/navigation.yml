@@ -1,28 +1,24 @@
-main:
+nav:   
+    - title: "Resume"
+      icon: "glyphicon glyphicon-user"
+      url: /resume/
+
     - title: "Publications"
       icon: "glyphicon glyphicon-user"
       url: /publications/
-  
-    - title: "Talks"
+      
+    - title: "Research"
       icon: "glyphicon glyphicon-user"
-      url: /talks/    
-  
+      url: /research/
+
     - title: "Teaching"
       icon: "glyphicon glyphicon-user"
       url: /teaching/    
       
-    - title: "Portfolio"
+    - title: "Software"
       icon: "glyphicon glyphicon-user"
-      url: /portfolio/
+      url: /software/
           
     - title: "Blog Posts"
       icon: "glyphicon glyphicon-user"
       url: /year-archive/
-      
-    - title: "CV"
-      icon: "glyphicon glyphicon-user"
-      url: /cv/
-      
-    - title: "Guide"
-      icon: "glyphicon glyphicon-user"
-      url: /markdown/

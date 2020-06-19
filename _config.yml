@@ -12,6 +12,7 @@ encoding: utf-8
 include:
     - .htaccess
     - _pages
+    - files
 
 # Social networks
 social:

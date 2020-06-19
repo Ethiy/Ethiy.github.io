@@ -2,7 +2,7 @@
 
 layout: page
 title: About
-permalink: 
+permalink: /publications
 ---
 
 About content goes here.

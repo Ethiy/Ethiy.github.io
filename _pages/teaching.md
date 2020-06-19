@@ -2,7 +2,7 @@
 
 layout: page
 title: About
-permalink: 
+permalink: /teaching
 ---
 
 About content goes here.

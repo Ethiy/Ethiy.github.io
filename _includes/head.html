@@ -1,24 +1,17 @@
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-  
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-    <link
-      rel="canonical"
-      href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Muli:400,300"
-      rel="stylesheet"
-      type="text/css"
-    />
-  </head>
+    <meta content={{site.description}} name="description">
+    <meta content={{site.keywords}} name="keywords">
+    <meta content="index, follow" name="robots">
+    <link href="{{ img/icon.jpg | prepend: site.baseurl }}" rel="shortcut icon">
+    <!-- Bootstrap core CSS -->
+    <link href="{{ css/bootstrap.css | prepend: site.baseurl }}" rel="stylesheet">
+    <!-- Font Awesome core CSS -->
+    <link href="{{ css/font-awesome.css | prepend: site.baseurl }}" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="{{ css/blue.css | prepend: site.baseurl }}" rel="stylesheet">
+</head>
   

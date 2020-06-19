@@ -1,0 +1,28 @@
+main:
+    - title: "Publications"
+      icon: "glyphicon glyphicon-user"
+      url: /publications/
+  
+    - title: "Talks"
+      icon: "glyphicon glyphicon-user"
+      url: /talks/    
+  
+    - title: "Teaching"
+      icon: "glyphicon glyphicon-user"
+      url: /teaching/    
+      
+    - title: "Portfolio"
+      icon: "glyphicon glyphicon-user"
+      url: /portfolio/
+          
+    - title: "Blog Posts"
+      icon: "glyphicon glyphicon-user"
+      url: /year-archive/
+      
+    - title: "CV"
+      icon: "glyphicon glyphicon-user"
+      url: /cv/
+      
+    - title: "Guide"
+      icon: "glyphicon glyphicon-user"
+      url: /markdown/

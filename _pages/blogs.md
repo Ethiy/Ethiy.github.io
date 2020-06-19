@@ -2,7 +2,7 @@
 
 layout: page
 title: About
-permalink: /about/
+permalink: 
 ---
 
 About content goes here.

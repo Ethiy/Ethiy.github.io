@@ -1,18 +1,23 @@
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 title: Oussama Ennafii
 email: oussama.ennafii@outlook.com
 copyright_name: Oussama Ennafii
 description: "Personnal website for Oussama Ennafii."
+keywords: "Oussama Ennafii, Personal website, vCard, Researcher, Programmer"
 baseurl: ""
 url: "https://oussama-ennafii.com"
-github_username:  ethiy
-linkedin_username: oussama-ennafii
-email_username:  oussama.ennafii@outlook.com
+
+timezone: Africa/Casablanca
+encoding: utf-8
+
+include:
+    - .htaccess
+    - _pages
+
+# Social networks
+social:
+    github:  ethiy
+    linkedin: oussama-ennafii
+    email:  oussama.ennafii@outlook.com
 
 # Build settings
 kramdown:

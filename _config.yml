@@ -6,6 +6,7 @@ keywords: "Oussama Ennafii, Personal website, vCard, Researcher, Programmer"
 baseurl: ""
 url: "https://oussama-ennafii.com"
 
+# Locale settings
 timezone: Africa/Casablanca
 encoding: utf-8
 

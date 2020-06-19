@@ -2,7 +2,7 @@
 
 layout: page
 title: About
-permalink: /blogs
+permalink: /resume
 ---
 
 About content goes here.

@@ -2,7 +2,7 @@
 
 layout: page
 title: About
-permalink: /portfolio
+permalink: /software
 ---
 
 About content goes here.

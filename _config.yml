@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Oussama Ennafii / Personal webpage"
+title                    : "Oussama Ennafii"
 title_separator          : "|"
 name                     : &name "Oussama Ennafii"
-description              : &description "personal description"
+description              : &description "Personal website."
 url                      : https://oussama-ennafii.com
 baseurl                  : ""
 repository               : "ethiy/ethiy.github.io"
@@ -21,7 +21,7 @@ future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
-      provider               : false, # "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+      provider               : false # "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
       disqus:
           shortname            :
       discourse:
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-    name             : "Your Sidebar Name"
+    name             : "Oussama Ennafii"
     avatar           : "profile.png"
     bio              : "Your biography for the left-hand sidebar"
     location         : "Paris Area, France"

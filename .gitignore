@@ -1,5 +1,15 @@
-_site
+# Git ignore file
+
+# Bundler files
+*.lock
+
+# Caches
 .sass-cache
+
+# Jekyll files
+_site
 .jekyll-cache
 .jekyll-metadata
+
+# Vendor files
 vendor

@@ -1,17 +1,19 @@
 <head>
     <meta charset="utf-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta content={{site.description}} name="description">
     <meta content={{site.keywords}} name="keywords">
     <meta content="index, follow" name="robots">
+
     <!-- Bootstrap core CSS -->
     <link href={{ "/css/bootstrap.css" | relative_url }} rel="stylesheet">
     <!-- Font Awesome core CSS -->
     <link href={{ "/css/font-awesome.css" | relative_url }} rel="stylesheet">
     <!-- Academic icons core CSS -->
     <link rel="stylesheet" href={{ "vendor/academicons/css/academicons.min.css"/ | relative_url }}>
+    
     <!-- Custom styles for this template -->
     <link href={{ "/css/blue.css" | relative_url }} rel="stylesheet">
 </head>

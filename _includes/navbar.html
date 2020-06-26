@@ -1,0 +1,16 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Oussama Ennafii</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <ul class="nav nav-tabs collapse navbar-collapse">
+        {% for item in site.data.navigation.tabs %}
+            <li>
+                <a data-toggle="tab" href="{{ item.url }}">
+                    <i class="{{ item.icon }}"></i>
+                    {{ item.title }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</nav>

@@ -18,7 +18,7 @@ html, body {
 	-ms-border-radius: 5px;
 	border-radius: 5px
 }
-.aside img {
+.aside img/ {
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
@@ -262,7 +262,7 @@ html, body {
 	text-align: center;
 	cursor: default
 }
-.tab-content #portfolio .portfolio ul li img {
+.tab-content #portfolio .portfolio ul li img/ {
 	display: block;
 	position: relative;
 	-webkit-transition: all .4s linear;
@@ -311,7 +311,7 @@ html, body {
 .tab-content #portfolio .portfolio ul li a.info:hover {
 	box-shadow: 0 0 5px #fff
 }
-.tab-content #portfolio .portfolio ul li:hover img {
+.tab-content #portfolio .portfolio ul li:hover img/ {
 	-ms-transform: scale(1.2);
 	-webkit-transform: scale(1.2);
 	transform: scale(1.2)

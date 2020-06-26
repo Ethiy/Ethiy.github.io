@@ -1,5 +1,5 @@
-<div class="col-md-3 col-md-offset-2 col-sm-4 aside">
-    <img src={{ "img/profile/me.jpg" | site.relativeurl }}>
+<div class="side-panel">
+    <img src={{ "assets/img/profile/me.jpg" | site.relativeurl }}>
     <h1>{{ site.data.author.name }}</h1>
     <h2>{{ site.data.author.description }}</h2>
     <h3>
@@ -17,7 +17,7 @@
                 {% if item.icon %}
                     <i aria-hidden="true" class= "{{ item.icon }}"></i>
                 {% else %}
-                    <i aria-hidden="true" class="ai"><img src="{{ item.img.src }}" width= {{ item.img.width }}/></i>
+                    <i aria-hidden="true" class="ai"><img/ src="{{ item.img/.src }}" width= {{ item.img/.width }}/></i>
                 {% endif %}
             </a>
         {% endfor %}

@@ -13,3 +13,7 @@ _site
 
 # Vendor files
 vendor
+
+# Node packages
+node_modules
+package-lock.json

@@ -9,29 +9,16 @@ url: "https://oussama-ennafii.com"
 timezone: Africa/Casablanca
 encoding: utf-8
 
-include:
-    - .htaccess
-    - _pages
-    - files
-
-# Social networks
-social:
-    github:  ethiy
-    linkedin: oussama-ennafii
-    email:  oussama.ennafii@outlook.com
-
 # Build settings
 kramdown:
     input: GFM
 highlighter: rouge
 permalink: pretty
 
-
-plugins:
-    - jekyll-feed
-
-sass:
-    sass_dir: _sass
+include:
+    - .htaccess
+    - _pages
+    - files
 
 exclude:
     - .sass-cache/
@@ -40,7 +27,11 @@ exclude:
     - Gemfile
     - Gemfile.lock
     - node_modules/
-    - vendor/bundle/
-    - vendor/cache/
-    - vendor/gems/
-    - vendor/ruby/
+    - vendor
+
+plugins:
+    - jekyll-feed
+
+sass:
+    sass_dir: assets/css
+    style: compressed

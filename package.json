@@ -1,0 +1,11 @@
+{
+    "name": "oe_webpage",
+    "version": "3.0.0",
+    "dependencies": {
+        "jquery": "^3.5.1",
+        "popper.js": "^1.16.0",
+        "bootstrap": "^4.5.0",
+        "font-awesome": "^4.7.0",
+        "academicons": "^1.8.6"
+    }
+}

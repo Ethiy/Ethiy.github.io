@@ -16,8 +16,8 @@ location:
       url: https://www.researchgate.net/profile/Oussama_Ennafii
 
     - site: hal-id
-      img: 
-          src: img/icons/header/hal.svg
+      img/: 
+          src: assets/img/icons/header/hal.svg
           width: 45px
       url: https://hal.archives-ouvertes.fr/search/index/?q=%2A&authIdHal_s=oussama-ennafii
 
